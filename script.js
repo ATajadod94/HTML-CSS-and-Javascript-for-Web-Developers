@@ -42,7 +42,6 @@ WARNING!!! WARNING!!!
   // 'speak' method.
   // See Lecture 50, part 1
   for (name in names) {
-    helloSpeaker.speak(names[name])
     // STEP 11:
     // Retrieve the first letter of the current name in the loop.
     // Use the string object's 'charAt' function. Since we are looking for
