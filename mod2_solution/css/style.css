@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+p {
+  color: white;
+  width: 80%;
+  height: 150px;
+  font-family: Helvetica;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+#p1 {
+  background-color: Salmon;
+}
+#p2 {
+  background-color: Green;
+}
+#p2 {
+  background-color: Peru;
+}
+section#container {
+  padding:2%;
+  width: 90%;
+  font-family: Helvetica;
+  background-color: gray;
+  position: relative;
+}
+
+.sec-title {
+  background-color: #A52A2A;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: auto;
+  width: 20%;
+  text-align: center;
+}
+
+/********** Desktops **********/
+@media (min-width: 992px) {
+  .col-lg-4{
+    float: left;
+    width: 33%;
+    padding: 2%;
+
+  }
+}
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+   /*** could combine the two but since there's only two not a big deal ***/
+  .col-md-6{
+    float: left;
+    width: 50%;
+  }
+  .col-md-12{
+    float: left;
+    width: 100%;
+  }
+}
+
+/********** Phone **********/
+@media (max-width: 767px) {
+
+}
