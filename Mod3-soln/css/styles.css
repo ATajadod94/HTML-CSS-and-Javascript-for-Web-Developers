@@ -1,0 +1,38 @@
+
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+/* END HEADER */
+
+/** Body **/
+
+#body{
+  width: 100%;
+  margin-right:100%;
+}
+#main_content {
+  width: 90%;
+  height: 2000px;
+  margin-left:5%;
+  background-color: #80ff00;
+}
+
+
+
+/** END Body **/
